@@ -3,7 +3,6 @@
 import {
   TypographyDestructive,
   TypographyH3,
-  TypographyP,
   TypographySmall,
 } from "@/components/typography";
 import { Button } from "@/components/ui/button";

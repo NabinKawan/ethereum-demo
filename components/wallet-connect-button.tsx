@@ -33,7 +33,7 @@ export default function WalletConnectButton() {
     fetchWalletBalance(wallet, account.address).then((balance) => {
       setWalletBalance(balance || "0.00");
     });
-  }, [wallet]);
+  }, [wallet, account]);
 
   return (
     <DropdownMenu>
